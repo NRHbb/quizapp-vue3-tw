@@ -1,0 +1,944 @@
+[
+    {
+        "id": 1,
+        "img": "html.jpeg",
+        "name": "HTML",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What does HTML stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "HyperText Markup Language",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "HighTech Machine Learning",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "HyperTransfer Text Language",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "HyperText Modeling Language",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which HTML tag is used to create a hyperlink?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "&lt;link&gt;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "&lt;a&gt;",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "&lt;url&gt;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "&lt;href&gt;",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which HTML element is used to define the structure of an HTML document?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "&lt;body&gt;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "&lt;structure&gt;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "&lt;html&gt;",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "&lt;document&gt;",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which attribute is used to provide additional information about an element?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "info",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "additional",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "meta",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "class",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What is the correct way to comment out multiple lines in HTML?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "&lt;!-- This is a comment --&gt;",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "// This is a comment",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "# This is a comment",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "/* This is a comment */",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "/css.png",
+        "name": "CSS",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What does CSS stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Computer Style Sheets",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Cascading Style Sheets",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Creative Style Sheets",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Colorful Style Sheets",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which property is used to change the background color in CSS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "color",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "background-color",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "bgcolor",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "bg-color",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "In CSS, which property is used to set the text color of an element?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "text-color",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "color",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "font-color",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "foreground-color",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which CSS property is used to control the space between elements?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "margin",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "padding",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "spacing",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "border-spacing",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What is the purpose of the 'z-index' property in CSS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Controls the transparency of an element",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Defines the position of an element along the z-axis",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Sets the background color of an element",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Specifies the font size of an element",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "/js.jpg",
+        "name": "JavaScript",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the purpose of the 'let' keyword in JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Declares a constant variable",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Declares a block-scoped variable",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Declares a global variable",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Declares a function",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "What does the 'NaN' in JavaScript stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Not a Number",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Null and Negative",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "No Action",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Negative and Null",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which method is used to join elements of an array into a string?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "concat()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "join()",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "merge()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "splice()",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "In JavaScript, what is the purpose of the 'this' keyword?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Refers to the current HTML document",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Refers to the previous element",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Refers to the current object",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Refers to the next sibling",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What is the purpose of the 'typeof' operator in JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Returns the type of the variable",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Declares a new variable",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Compares two variables",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Checks if a variable is defined",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "/php.png",
+        "name": "PHP",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What does PHP stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Personal Home Page",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Preprocessed Hypertext Processor",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "PHP: Hypertext Processor",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Hypertext Preprocessor",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which of the following is used to comment in PHP?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "// This is a comment",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "# This is a comment",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "/* This is a comment */",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "-- This is a comment",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "In PHP, which function is used to connect to a MySQL database?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "mysqli_query",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "mysql_connect",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "mysqli_connect",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "connect_mysql",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "What is the correct way to end a PHP statement?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": ".",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": ";",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": ":",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": ",",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Which function is used to redirect the user to another page in PHP?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "header()",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "redirect()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "navigate()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "forward()",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "/python.jpg",
+        "name": "Python",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the main purpose of the 'if' statement in Python?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To declare a variable",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To define a function",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To perform conditional execution",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To iterate over a sequence",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which symbol is used for comments in Python?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "//",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "#",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "--",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "/* */",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What is the function used to get the length of a list in Python?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "size()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "length()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "count()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "len()",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which of the following is used to create a dictionary in Python?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "[]",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "{}",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "<>",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "In Python, how do you open a file in binary mode?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "file.open('filename', 'b')",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "file('filename', 'binary')",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "open('filename', 'rb')",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "open('filename', 'binary')",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "/java.jpg",
+        "name": "Java",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the main purpose of the 'public static void main(String[] args)' method in Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To declare a variable",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To define a function",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To perform conditional execution",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To start the execution of the program",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which keyword is used to inherit a class in Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "super",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "this",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "extends",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "implements",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What is the output of the following code snippet: `System.out.println(10/3)` in Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "3.33",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "3.0",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "10/3",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "In Java, which collection class is synchronized?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ArrayList",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "LinkedList",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "HashSet",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Vector",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Which keyword is used to handle exceptions in Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "catch",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "try",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "throw",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "finally",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+]
