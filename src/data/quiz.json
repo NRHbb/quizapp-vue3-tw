@@ -41,25 +41,25 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "&lt;link&gt;",
+                        "text": "<link>",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "&lt;a&gt;",
+                        "text": "<a>",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "&lt;url&gt;",
+                        "text": "<url>",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "&lt;href&gt;",
+                        "text": "<href>",
                         "isCorrect": false
                     }
                 ]
@@ -71,25 +71,25 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "&lt;body&gt;",
+                        "text": "<body>",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "&lt;structure&gt;",
+                        "text": "<structure>",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "&lt;html&gt;",
+                        "text": "<html>",
                         "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "&lt;document&gt;",
+                        "text": "<document>",
                         "isCorrect": false
                     }
                 ]
@@ -131,7 +131,7 @@
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "&lt;!-- This is a comment --&gt;",
+                        "text": "<!-- This is a comment -->",
                         "isCorrect": true
                     },
                     {
