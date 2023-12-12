@@ -8,6 +8,7 @@
         <div id="option" class="flex mb-5 cursor-pointer"
         v-for="option in question.options"
         :key="option.id"
+        @click="emitSelected(option.isCorrect)"
         >
             <p id="option-label" 
             class="bg-white w-[60px] h-[60px] text-xl flex items-center justify-center">
@@ -22,9 +23,15 @@
 </template>
 
 <script setup>
-import {defineProps} from 'vue'
+import {defineProps, defineEmits} from 'vue'
+
+const emit = defineEmits(['selectOption'])
 
 const {question} = defineProps(['question'])
+
+const emitSelected = (isCorrect) => {
+    emit("selectOption", isCorrect)
+}
 </script>
 
 <style lang="scss" scoped></style>
