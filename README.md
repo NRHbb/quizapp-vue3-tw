@@ -4,5 +4,5 @@ QuiZone vue3 + tailwindcss from laith Academy in Udemy
 2. yarn install
 3. yarn dev
 
-demo : quizapp-vue3-tw.vercel.app
+demo : https://quizapp-vue3-tw.vercel.app/
 
