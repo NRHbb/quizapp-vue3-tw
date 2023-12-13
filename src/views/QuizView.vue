@@ -15,12 +15,6 @@
             :numberCorrect="numberCorrect"
             />
         </div>
-        
-        <!-- <button @click="++currentQuestion"
-        class="bg-yellow-300 p-4 rounded-md text-white font-bold drop-shadow-md"
-        >
-            Next Question
-        </button> -->
     </div>
 </template>
 
