@@ -6,21 +6,20 @@
         shadow-md">
         </header>
         <div id="option-container" class="flex flex-wrap mt-10 gap-4">
-            <Card v-for="quiz in quizes" :key="quiz.id" :quiz="quiz" />
-            <!-- <div 
-        v-for="quiz in quizes"
-        :key="quiz.id"
-        id="card"
-        class="w-[300px] bg-white rounded-lg mb-[35px] overflow-hidden cursor-pointer shadow-md"
-        >
-          <img :src="quiz.img" alt=""
-          class="w-full h-[190px] m-0">
-          <div id="card-text"
-          class="py-2 px-2">
-            <h2 class="font-bold text-2xl">{{quiz.name}}</h2>
-            <p>{{quiz.questions.length}}</p>
-          </div>
-        </div> -->
+            <TransitionGroup  
+            appear
+            @before-enter="beforeEnter"
+            @enter="enter"
+            @after-enter="afterEnter"
+            
+            >
+                <Card 
+                v-for="(quiz, index) in quizes" 
+                :key="quiz.id" 
+                :quiz="quiz" 
+                :data-index="index"
+                />
+            </TransitionGroup>
         </div>
     </div>
 </template>
@@ -29,9 +28,11 @@
 import q from "../data/quiz.json"
 import { ref, watch } from "vue";
 import Card from "../components/Card.vue";
+import gsap from "gsap";
 
 const quizes = ref(q)
 const search = ref("")
+
 
 
 //gunakan watch u/ mengamati perubahan pas var search
@@ -40,6 +41,45 @@ watch(search, () => {
     quizes.value = q.filter(quiz => quiz.name.toLowerCase().includes(search.value.toLowerCase()))
 }) //fungsi ini akan mengupdate quizes.value dengan daftar quiz yang memiliki nama saat search diketik
 
+const afterEnter = () => {
+
+}
+
+const beforeEnter = (el) => {
+    //card-enter-from
+    el.style.opacity = 0
+    el.style.transform = "translateY(-100px)"
+}
+
+const enter = (el) => {
+    //card-enter-to
+    gsap.to(el, {
+        y: 0, //same as translateY(0)
+        opacity: 1,
+        duration: 0.3,
+        delay: el.dataset.index * 0.3
+    })
+
+    //card-enter-active
+
+
+}
+
+
 </script>
-  
-  
+
+<style scoped>
+.card-enter-from{
+    transform: translateY(-50px);
+    opacity: 0;
+}
+.card-enter-from{
+    transform: translateY(-50px);
+    opacity: 1;
+}
+.card-enter-active{
+    transition: all 1s ease;
+}
+
+
+</style>
